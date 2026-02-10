@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Virtual environments
+.venv/
+
+# uv
+uv.lock
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment and secrets
+.env
+*.env
+
+# Project configs with credentials
+config.json
+config.*.json
+!config.example.json
