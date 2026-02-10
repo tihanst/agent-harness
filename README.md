@@ -1,6 +1,6 @@
 # Agent Harness
 
-A CLI agent harness with MCP server support and pluggable LLM backends. It connects any supported LLM to external tools via the [Model Context Protocol](https://modelcontextprotocol.io/), managing the agentic tool-use loop so the LLM can call tools, process results, and iterate toward an answer.
+A CLI agent harness with MCP server support, built-in native tools, and pluggable LLM backends. It connects any supported LLM to external tools via the [Model Context Protocol](https://modelcontextprotocol.io/) and in-process native tools, managing the agentic tool-use loop so the LLM can call tools, process results, and iterate toward an answer.
 
 The harness itself contains no model logic — it orchestrates the connection between LLMs and tools.
 
