@@ -153,3 +153,10 @@ src/agent_harness/
 1. Subclass `NativeTool` in `native_tools/builtin/`
 2. Implement `get_tools()` and `call()`
 3. Register it in `cli.py`: `native_tool_registry.register(MyTool())`
+
+
+## Contributors
+
+| [<img src="https://github.com/tihanst.png?size=100" width="100px;"/><br /><sub><b>Steve</b></sub>](https://github.com/tihanst) | [<img src="https://github.com/claude.png?size=100" width="100px;"/><br /><sub><b>Claude</b></sub>](https://github.com/claude) |
+| :---: | :---: |
+| 💻 🏗️ | 🤖 💻 📝 |
