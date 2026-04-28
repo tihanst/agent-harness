@@ -34,7 +34,7 @@ class OpenAIProvider(LLMProvider):
     ) -> None:
         self._model = model or DEFAULT_MODEL
         self._system_prompt = system_prompt
-        key = api_key or os.environ.get("OPENAI_API_KEY")
+        key = api_key or os.environ.get("OPENAI_API_KEY") or "dummy"
         kwargs: dict[str, Any] = {"api_key": key}
         if base_url:
             kwargs["base_url"] = base_url
